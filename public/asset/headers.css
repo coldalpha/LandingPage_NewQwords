@@ -1,0 +1,156 @@
+.font1125 {
+  font-size: 1.125rem;
+}
+
+
+.font135 {
+  font-size: 1.35rem;
+}
+
+.font09 {
+    font-size: .9rem;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+
+.vivid-colors {
+    color: #fff;
+}
+
+.fancy {
+    font-family: Nunito, sans-serif;
+}
+
+.dark-souls {
+    color: #343a40;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.margin-bottom5 {
+    margin-bottom: .5rem;
+}
+
+.weight500 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.weight600 {
+    font-weight: 600!important;
+}
+
+.whitebeauty {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.weight500withstyle {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.h6spec {
+    color: rgba(255, 255, 255, 0.6) !important;
+    margin-bottom: 2px;
+}
+
+.admin-bar #page-topbar {
+    top: 32px;
+}
+.admin-bar .topnav {
+    margin-top: 0 !important;
+    top: 74px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+.modal-content, .modal-header, .modal-content .nav-tabs, .modal-content .nav-tabs .nav-link, .modal-content .nav-tabs .nav-item.show .nav-link, 
+.modal-content .nav-tabs .nav-link.active, .modal-content .nav-tabs .nav-link:focus, .modal-content .nav-tabs .nav-link:hover {
+    border: none;
+}
+.modal-header {
+    background-color: #252b3b;
+}
+.modal-content .nav-tabs .nav-item.show .nav-link, .modal-content .nav-tabs .nav-link.active {
+    background-color: transparent;
+}
+.modal-content .nav-pills>li>a, .nav-tabs>li>a {
+    color: #fff;
+}
+.modal-content .nav-tabs .nav-link.active {
+    color: #ff9800;
+}
+.bg-qwords {
+    width: 211px;
+    height: 82px;
+    background: url(../images/alllogo.png) -301px -10px;
+    display: block;
+    margin: auto;
+}
+.bg-gfn {
+    width: 232px;
+    height: 80px;
+    background: url(../images/alllogo.png) -10px -142px;
+    display: block;
+    margin: auto;
+}
+.bg-sejutadomain {
+    width: 271px;
+    height: 112px;
+    background: url(../images/alllogo.png) -10px -10px;
+    display: block;
+    margin: auto;
+}
+.modal-header .close {
+    color: #fff;
+}
+.btn-login-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn-login-wrp .btn-login, .btn-login-wrp .btn-cancel {
+    width: 120px;
+    margin: 0 8px;
+}
+.modal-content .form-control:hover, .modal-content .form-control:focus, .modal-content .form-control:active {
+    border-color: #323645;
+}
+
+@media (max-width: 1200.5px) {
+    .admin-bar .topnav {
+        margin-top: 0 !important;
+        top: 96px;
+    }
+}
+@media (max-width: 781px) {
+    .admin-bar #page-topbar {
+        top: 45px;
+    }
+}
+@media (max-width: 600px) {
+    .admin-bar #page-topbar {
+        top: 0;
+    }
+}
+
+/* 15 Maret 2021 */
+@media screen and (max-width : 1368px){
+  .topnav .navbar-nav .nav-item:first-of-type .nav-link {
+    padding: 0.5rem 0.5rem !important;
+  }
+.topnav .navbar-nav .nav-link {
+  padding: 0.5rem 0.5rem !important;
+  }
+}

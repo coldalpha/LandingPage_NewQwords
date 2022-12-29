@@ -1,0 +1,326 @@
+.header {
+    height: 100vh;
+    max-height: 768px;
+    min-height: 600px;
+    background-color: #323645;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    padding-bottom: 32px;
+    
+}
+.slide-content h1, .slide-content h5 {
+    color: #fff !important;
+}
+#aturan-lain.header,
+#cycle.header,
+#slakvm.header,
+#sladiego.header,
+#slawh.header,
+#pembatasan.header,
+#migrasi.header,
+#term.header,
+#privacy.header,
+#aup.header,
+#sla.header,
+#msa.header,
+#difference.header,
+#partner.header,
+#logo.header,
+#refund.header,
+#msa.header,
+#contactus.header,
+#network.header,
+#sejarah.header,
+#askameeting.header,
+#bannerpromo.header{
+    height: auto;
+    max-height: fit-content;
+    min-height: fit-content;
+    padding-top: 130px;
+}
+
+/* ============================================ */
+/*                 Background                   */
+/* ============================================ */
+
+/* hi-performance */
+#hpch.header {
+    background-image: url(../../images/slider/slide_2.1.svg);
+    background-position: bottom right;
+    background-size: 50%;
+}
+/* business-cloud-hosting */
+#bch.header {
+    background-image: url(../../images/slider/slide_3.1.svg);
+}
+/* unlimited-hosting */
+#unlimited-host.header {
+    background-image: url(../../images/slider/slide_5.1.svg);
+    background-position: bottom right;
+    background-size: 50%;
+}
+/* wordpress-hosting */
+#wp-host.header {
+    background-image: url(../../images/slider/il_header_wphost.png);
+}
+/* value-performance */
+#value-perform.header {
+    background-image: url(../../images/slider/slide_7.1.svg);
+}
+/* cloud-vps-kvm-ssd */
+#vps-kvm.header {
+    background-image: url(../../images/slider/slide_8.1.svg);
+}
+/* colocation-server */
+#colocation-server.header {
+    background-image: url(../../images/slider/slide_9.1.svg);
+}
+/* dedicated-box */
+#dedicated-box.header {
+    background-image: url(../../images/slider/slide_9.2.svg);
+}
+/* cloud-vps-moodle */
+#moodle.header {
+    background-image: url(../../images/slider/slide_27.svg);
+}
+/* internet-rumah */
+#internet-rumah.header {
+    background-image: url(../../images/slider/il_header_internetrumah.svg);
+}
+/* internet-rumah */
+#internet-wireless.header {
+    background-image: url(../../images/slider/il_header_internetwireless2.svg);
+}
+/* internet-bisnis */
+#internet-bisnis.header {
+    background-image: url(../../images/slider/il_header_internetbisnis.svg);
+}
+/* internet-rumah */
+#internet-metro.header {
+    background-image: url(../../images/slider/metroethernet.png);
+}
+/* internet-rumah */
+#titan-email.header {
+    background-image: url(../../images/slider/titanemail.png);
+}
+/* internet-rumah */
+#qdp.header {
+    background-image: url(../../images/slider/qdp.png);
+}
+/* internet-rumah */
+#internet-iptransit.header {
+    background-image: url(../../images/slider/iptransit.png);
+}
+/* domain-name */
+#domain-name.header {
+    background-image: url(../../images/slider/slide_10.1.svg);
+}
+/* domain-premium-id */
+#domain-premium.header {
+    background-image: url(../../images/slider/slide_11.1.svg);
+}
+/* syarat-domain-id */
+#syarat-domain.header {
+    background-image: url(../../images/slider/slide_11.1.svg);
+}
+/* domain-backorder */
+#domain-backorder.header {
+    background-image: url(../../images/slider/slide_26.1.svg);
+}
+/* domain-broker */
+#domain-broker.header {
+    background-image: url(../../images/slider/img_banner_domain_broker.svg);
+}
+/* domain-sewa */
+#domain-sewa.header {
+    background-image: url(../../images/slider/img_banner_rent_domain.svg);
+}
+/* eccs */
+#eccs.header {
+    background-image: url(../../images/slider/slide_12.1.svg);
+}
+
+/* kvm ols */
+#vps-kvm-ols.header {
+    background-image: url(../../images/slider/slide_openlitespeed_wp.svg);
+}
+/* gsuite */
+#gsuite.header {
+    background-image: url(../../images/slider/slide_13.1.svg);
+}
+/* microsoft365 */
+#microsoft.header {
+    background-image: url(../../images/slider/slide_14.1.svg);
+}
+/* mailtogo */
+#mailtogo.header {
+    background-image: url(../../images/slider/slide_15.1.svg);
+}
+/* secured-sockets-layer-certificate */
+#ssl.header {
+    background-image: url(../../images/slider/slide_16.1.svg);
+}
+/* diego-vpn */
+#diego.header {
+    background-image: url(../../images/slider/slide_17.1.svg);
+}
+/* licenses */
+#licenses.header {
+    background-image: url(../../images/slider/slide_18.1.svg);
+}
+/* managethebox */
+#managethebox.header {
+    background-image: url(../../images/slider/managetheboxserver.png);
+}
+/* offline */
+#offline.header {
+    background-image: url(../../images/slider/slide_20.1.svg);
+}
+/* Standard Support */
+#Standard.header {
+    background-image: url(../../images/slider/slide_20.1.svg);
+}
+/* order-payment */
+#order.header {
+    background-image: url(../../images/slider/slide_21.1.svg);
+}
+/* faq */
+#faq.header {
+    background-image: url(../../images/slider/slide_22.1.svg);
+    background-position: bottom right;
+}
+/* qwords-rewards */
+#rewards.header {
+    background-image: url(../../images/slider/slide_23.1.svg);
+    background-position: bottom right;
+    background-size: 50%;
+}
+/* afiliasi */
+#afiliasi.header {
+    background-image: url(../../images/slider/slide_24.1.svg);
+    background-position: bottom right;
+    background-size: 50%;
+}
+/* reseller private label domain reselle */
+#pldr.header {
+    background-image: url(../../images/slider/domainreseller.png);
+}
+/* reseller private label hosting reselle */
+#plhr.header {
+    background-image: url(../../images/slider/slide_28.1.svg);
+}
+/* Qwords Reseller Package */
+#qrp.header {
+    background-image: url(../../images/slider/slide_24.1.svg);
+    background-position: bottom right;
+    background-size: 50%;
+}
+/* hosting-insurance */
+#insurance.header {
+    background-image: url(../../images/slider/slide_30.1.svg);
+}
+/* Spam Experts */
+#spam-experts.header {
+    background-image: url(../../images/slider/slide_29.1.svg);
+}
+/* digital signature */
+#signature.header {
+    background-image: url(../../images/slider/slide_32.1.svg);
+}
+/* Pemesanan & Pembayaran */
+#pemesanan.header {
+    background-image: url(../../images/slider/slide_21.1.svg);
+}
+/* flexi-main-domain */
+#flexi.header {
+    background-image: url(../../images/slider/fleximaindomain.png);
+    background-size: 30%;
+}
+/* ftp backup */
+#ftp.header {
+    background-image: url(../../images/slider/ftpbackup.png);
+}
+/* customer-care-affiliate */
+#customer-care-affiliate.header {
+    background-image: url(../../images/slider/slide_23.1.svg);
+    background-position: bottom right;
+    background-size: 50%;
+}
+section#customer-care-affiliate .slider-content{
+    position: relative;
+}
+/* invoice */
+#invoice.header {
+    background-image: url(../../images/slider/slide_33.1.svg);
+    background-size: 30%;
+}
+
+@media (max-width: 1980px) {
+    #Standard.header,
+    #offline.header,
+    #mailtogo.header,
+    #gsuite.header,
+    #eccs.header,
+    #vps-kvm-ols.header,
+    #syarat-domain.header,
+    #domain-premium.header,
+    #domain-name.header,
+    #moodle.header,
+    #colocation-server.header,
+    #dedicated-box.header,
+    #wp-host.header,
+    #unlimited-host.header {
+        background-size: 30%;
+    }
+    #pemesanan.header,
+    #licenses.header,
+    #vps-kvm.header {
+        background-size: 35%;
+    }
+    #diego.header,
+    #internet-bisnis.header,
+    #internet-bisnis.header,
+    #ssl.header {
+        background-size: 25%;
+    }
+    
+}
+
+@media (max-width: 1366px) {
+    #pemesanan.header,
+    #Standard.header,
+    #offline.header,
+    #licenses.header,
+    #ssl.header,
+    #mailtogo.header,
+    #gsuite.header,
+    #eccs.header,
+    #vps-kvm-ols.header,
+    #syarat-domain.header,
+    #domain-premium.header,
+    #domain-name.header,
+    #moodle.header,
+    #colocation-server.header,
+    #dedicated-box.header,
+    #vps-kvm.header,
+    #wp-host.header,
+    #unlimited-host.header {
+        background-size: 40%;
+    }
+    #internet-rumah.header,
+    #internet-wireless.header,
+    #internet-bisnis.header,
+    #diego.header {
+        background-size: 35%;
+    }
+}
+
+@media (max-width: 767px) {
+   .header {
+       background-image: none !important;
+   }
+}

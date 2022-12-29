@@ -1,0 +1,51 @@
+#domainTrueName .domain-truename-header {
+  font-size: 14px;
+  color: #323645;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media screen and (max-width: 1366px) {
+  #domainTrueName .domain-truename-header {
+    max-height: 1.5em;
+  }
+}
+#domainTrueName .truename-card {
+  position: relative;
+  min-height: 100px;
+}
+#domainTrueName .truename-img {
+  cursor: pointer;
+  margin: 10px 0 0;
+}
+#domainTrueName .truename-img .truename-tip {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  border: 1px solid #dfdfdf;
+}
+#domainTrueName .truename-img:hover .truename-tip {
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+  visibility: visible;
+  top: 90%;
+  left: 55%;
+  z-index: 10;
+  width: 300px;
+}
+@media (min-width: 769px) and (max-width: 1440px) {
+  #domainTrueName .truename-img:hover .truename-tip {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #domainTrueName .truename-img:hover .truename-tip {
+    left: 5%;
+  }
+}
